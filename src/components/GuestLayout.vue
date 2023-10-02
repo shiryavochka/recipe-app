@@ -1,5 +1,5 @@
 <template>
-logun
+login
 </template>
 <script>
 </script>
