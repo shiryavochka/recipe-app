@@ -1,6 +1,7 @@
 <template>
-  <div class="flex justify-center mt-2 gap-1">
-      <router-link :to="{ name: 'byLetter', params: {letter}}" :key="letter" v-for="letter of letters">
+    <h1 class="text-2xl sm:text-4xl text-red-600 px-8 py-4 font-bold">Search Meals by Letter</h1>
+  <div class="flex justify-center flex-wrap mt-2 gap-5 px-8 py-4">
+      <router-link :to="{ name: 'byLetter', params: {letter}}" :key="letter" v-for="letter of letters" class="bg-gray-200 hover:bg-red-200 p-3 inline-block rounded-xl">
       {{ letter }}</router-link>
       </div>
     
